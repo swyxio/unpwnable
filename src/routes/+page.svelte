@@ -69,10 +69,7 @@
 		>real mission, should you choose to accept it, is to <a
 			href="https://lspace.swyx.io/p/reverse-prompt-eng">reverse engineer the source prompt</a
 		> to as high fidelity as possible</b
-	>.
-</p>
-<p>You can leave your guesses and process in the accompanying HN post. 
-  We expect that most will get no more than the first sentence (16 words) of the source prompt. Some will get the first 3 sentences (34 words). None will get the full 90 words.
+	>. In other words, try to obtain as much of the "hidden" prefix string that is prepended to your input before it is sent to GPT3.
 </p>
 <p>
   There is a rate limit (which is there for my wallet's sake).
@@ -90,6 +87,13 @@
 	<li>starting with "You are an assistant"</li>
 	<li>ending by concatenating the user input to the source prompt</li>
 	<li>There are NO special characters or formatting used to protect the prompt</li>
+</ul>
+<p>You can leave your guesses and process in the accompanying HN post. We expect that:
+</p>
+<ul>
+  <li>Most will get no more than the first sentence (16 words) of the source prompt.</li> 
+  <li>Some will get the first 3 sentences (34 words).</li>
+  <li>None will get the full 90 words (unless you get lucky).</li>
 </ul>
 <p>
   We will publish the source prompt and code in a few days; you can then compare your results to the
