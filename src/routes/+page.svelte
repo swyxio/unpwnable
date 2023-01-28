@@ -91,18 +91,18 @@
 </p>
 <p><b>Hints/Checks</b>: The source prompt is a simple variation on real product prompts:</p>
 <ul>
-	<li>a ~90 word, ~500 character string</li>
+	<li>a 93 word, 517 character string (when pasted in <a href="https://wordcounter.net/">wordcounter</a>)</li>
 	<li>starting with "You are an assistant"</li>
 	<li>ending by concatenating the user input to the source prompt</li>
-	<li>There are NO special characters or formatting used to protect the prompt</li>
+	<li>There are NO special characters or formatting (JSON or otherwise) used to protect the prompt</li>
 </ul>
 <p>You can leave your guesses and process in the accompanying HN post. We expect that:</p>
 <ul>
 	<li>Most will get no more than the first sentence (16 words) of the source prompt.</li>
 	<li>Some will get the first 3 sentences (34 words).</li>
-	<li>One beta tester has found the <i>last</i> 4ish sentences (41 words). Try not to peek!</li>
+	<li>One beta tester has found the <i>last</i> 4ish sentences (~41 words). Try not to peek!</li>
 	<li>
-		None will get the full 90 words (we think it is IMPOSSIBLE
+		None will get the full 90ish words (we think it is IMPOSSIBLE
 		to get the full prompt, but if you get 90+% of it we'll count it as a win).
 	</li>
 </ul>
@@ -113,7 +113,7 @@
 <p>
 	It's
 	<a href="https://emn178.github.io/online-tools/sha256.html">SHA-256 hash</a> is
-	<code>f9f91bed2ce346dcb0bc0b6c7dd1bb22c615e3ad0e855fbfe35ac53649c16a97</code> (due to whitespace it
+	<code>cf58ad59e753e80419325ce57901efe40b4e141d819a13b9c0ba2d0c3402de50</code> (due to whitespace it
 	would be unrealistic to expect that you will get an exact match, but it'd be a really cool bonus if
 	you do).
 </p>

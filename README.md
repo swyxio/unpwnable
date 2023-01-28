@@ -20,6 +20,6 @@ The prompt is a simple variation on real product prompts:
 - ending by concatenating the user input to the source prompt
 - There are NO special characters or formatting used to protect the prompt
 
-It's [SHA-256 hash](https://emn178.github.io/online-tools/sha256.html) is `f9f91bed2ce346dcb0bc0b6c7dd1bb22c615e3ad0e855fbfe35ac53649c16a97`.
+It's [SHA-256 hash](https://emn178.github.io/online-tools/sha256.html) is `cf58ad59e753e80419325ce57901efe40b4e141d819a13b9c0ba2d0c3402de50`.
 
 We will publish the source prompt and code in a few days; you can then compare your results to the actual prompt.
