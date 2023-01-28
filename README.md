@@ -1,38 +1,17 @@
-# create-svelte
+# Unpwnable - The prompt that cannot be leaked!
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+demo: https://unpwnable.netlify.app/
 
-## Creating a project
+## What is this?
 
-If you're seeing this, you've probably already done this step. Congrats!
+This is a test of the "Unpwnable" prompt injection protection strategy. We want to demonstrate that you can take normal product prompts and sufficiently protect against prompt injection attacks.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+First, you can verify that the prompt works as advertised, by submitting topics you would like GPT3 to write about (e.g. "dog", "netlify", "obama"). In the API we've used a simple prompt that is meant to be reflective of a realistic product prompt, with our "unpwnable" protection strategy.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Your **real mission, should you choose to accept it, is to [reverse engineer the source prompt](https://lspace.swyx.io/p/reverse-prompt-eng) to as high fidelity as possible**, within our rate limit.
 
-## Developing
+You can leave your guesses and process in the accompanying blogpost.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+We will publish the source prompt and code in a few days; you can then compare your results to the actual prompt.
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+The prompt is a simple variation on real product prompts - a ~90 word, ~500 character string starting with "You are an assistant" and ending by concatenating the user input to the source prompt. There are NO special characters or formatting. It's [SHA-256 hash](https://emn178.github.io/online-tools/sha256.html) is `bcd4943b7bd06818d182270aad1455d649c9cbaaa319d1a4a8d5deb3aba0145b`.

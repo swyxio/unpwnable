@@ -34,7 +34,7 @@
 </form>
 
 {#await res}
-	<p class="italic">Waiting for res...</p>
+	<p class="italic">Waiting for API response...</p>
 {:then res}
 	{#if res}
 		<pre>{res.response.trim()}</pre>
@@ -48,24 +48,26 @@
 <h2>What is this?</h2>
 
 <p>
-  This is a test of the Unpwnable prompt injection protection strategy. 
-  It is a simple prompt that is meant to be reflective of a realistic product prompt that a company wants to protect.
+  This is a test of the "Unpwnable" prompt injection protection strategy. 
+  We want to demonstrate that you can take normal product prompts and sufficiently protect against prompt injection attacks.
 </p>
 <p>
-  First, you can verify that the prompt works as advertised by submitting topics you would like GPT3 to write about.
+  First, you can verify that the prompt works as advertised, by submitting topics you would like GPT3 to write about (e.g. "dog", "netlify", "obama"). 
+  In the API we've used a simple prompt that is meant to be reflective of a realistic product prompt, with our "unpwnable" protection strategy.
 </p>
 <p>
-  But your real mission is to reverse engineer the source prompt to as high fidelity as possible, respecting our rate limit. 
+  Your <b>real mission, should you choose to accept it, is to <a href="https://lspace.swyx.io/p/reverse-prompt-eng">reverse engineer the source prompt</a> to as high fidelity as possible</b>, within our rate limit. 
 </p>
 <p>
   You can leave your guesses and process in the accompanying blogpost.
 </p>
 <p>
-  We will publish the prompt and the source code in a few days; you can then compare your results to the actual prompt.
+  We will publish the source prompt and code in a few days; you can then compare your results to the actual prompt.
 </p>
 <p>
-  The prompt is a simple variation on real product prompts - a ~90 word, ~500 character string starting with "You are an assistant". 
-  There are no special characters or formatting.
+  The prompt is a simple variation on real product prompts - a ~90 word, ~500 character string starting with "You are an assistant" and ending by concatenating the user input to the source prompt. 
+  There are NO special characters or formatting. It's 
+  <a href="https://emn178.github.io/online-tools/sha256.html">SHA-256 hash</a> is <code>bcd4943b7bd06818d182270aad1455d649c9cbaaa319d1a4a8d5deb3aba0145b</code>.
 </p>
 
 <style>
