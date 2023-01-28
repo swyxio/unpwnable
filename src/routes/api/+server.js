@@ -13,7 +13,7 @@ const limiter = rateLimit({
 export async function POST({ request, setHeaders }) {
 
   try {
-    await limiter.check(setHeaders, 2, 'CACHE_TOKEN') // 10 requests per minute
+    await limiter.check(setHeaders, 8, 'CACHE_TOKEN') // 8 requests per minute
   } catch {
     throw error(429, 'Rate limit exceeded')
   }

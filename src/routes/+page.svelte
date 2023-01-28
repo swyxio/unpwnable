@@ -42,7 +42,7 @@
 		<p class="italic">write a prompt...</p>
 	{/if}
 {:catch error}
-	<p class="italic">Something went wrong: {error.message}</p>
+	<p class="italic">Something went wrong: Error code {error.code} {error.message}</p>
 {/await}
 
 <h2>What is this?</h2>
