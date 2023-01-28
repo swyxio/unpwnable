@@ -17,7 +17,7 @@ The prompt is a simple variation on real product prompts:
 - a ~90 word, ~500 character string
 - starting with "You are an assistant"
 - ending by concatenating the user input to the source prompt
-- There are NO special characters or formatting.
+- There are NO special characters or formatting used to protect the prompt
 
 It's [SHA-256 hash](https://emn178.github.io/online-tools/sha256.html) is `bcd4943b7bd06818d182270aad1455d649c9cbaaa319d1a4a8d5deb3aba0145b`.
 
