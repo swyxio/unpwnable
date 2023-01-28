@@ -88,7 +88,6 @@
 <ul>
 	<li>a ~90 word, ~500 character string</li>
 	<li>starting with "You are an assistant"</li>
-	<li>contains the words "funny", "creative", and "easy"</li>
 	<li>ending by concatenating the user input to the source prompt</li>
 	<li>There are NO special characters or formatting used to protect the prompt</li>
 </ul>
