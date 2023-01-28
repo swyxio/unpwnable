@@ -62,7 +62,7 @@
 <p>
 	First, you can verify that the prompt works as advertised, by submitting topics you would like
 	GPT3 to write about (e.g. "dog", "netlify", "sam altman"). In the API we've used a simple prompt that
-	is meant to be reflective of a realistic product prompt, with our "unpwnable" protection strategy.
+	is meant to be reflective of a realistic product prompt.
 </p>
 <p>
 	Your <b
@@ -84,10 +84,11 @@
   (it's not saved anywhere on my end but you'll have to trust me until I open source this)
   {/if}
 </p>
-<p>The source prompt is a simple variation on real product prompts:</p>
+<p><b>Hints/Checks</b>: The source prompt is a simple variation on real product prompts:</p>
 <ul>
 	<li>a ~90 word, ~500 character string</li>
 	<li>starting with "You are an assistant"</li>
+	<li>contains the words "funny", "creative", and "easy"</li>
 	<li>ending by concatenating the user input to the source prompt</li>
 	<li>There are NO special characters or formatting used to protect the prompt</li>
 </ul>
