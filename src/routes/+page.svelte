@@ -80,8 +80,8 @@
 	input before it is sent to GPT3.
 </p>
 <p>
-	There is a rate limit (which is there for my wallet's sake). You can add your OpenAI key here to
-	bypass the rate limit:
+	There are multiple rate limits (which is there for my wallet's sake). You can add your OpenAI key here to
+	bypass all of the rate limits:
 	<input type="text" placeholder="your own OpenAI key" bind:value={oaikey} />
 	{#if oaikey}
 		<span class="whee">will be submitted together with the prompt!</span>
@@ -94,21 +94,17 @@
 	<li>a 93 word, 517 character string (when pasted in <a href="https://wordcounter.net/">wordcounter</a>)</li>
 	<li>starting with "You are an assistant"</li>
 	<li>ending by concatenating the user input to the source prompt</li>
-	<li>There are NO special characters or formatting (JSON or otherwise) used to protect the prompt</li>
+	<li>There are NO special characters or formatting (JSON or otherwise), and NO regex or postprocessing used to protect the prompt</li>
 </ul>
 <p>You can leave your guesses and process in the accompanying Substack post (dont post guesses on HN or social media in case it spoils it for others!). We expect that:</p>
 <ul>
 	<li>Most will get no more than the first sentence (16 words) of the source prompt.</li>
 	<li>Some will get the first 3 sentences (34 words).</li>
-	<li>One beta tester has found the <i>last</i> 4ish sentences (~41 words). Try not to peek!</li>
-	<li>
-		None will get the full 90ish words (we think it is IMPOSSIBLE
-		to get the full prompt, but if you get 90+% of it we'll count it as a win).
-	</li>
+	<li>Two beta testers have found enough words to win (>80 words verbatim) using 2 different techniques. We've strengthened the protection since, and cannot reproduce them now. Try not to peek anyway! We'll write them up at the end.</li>
 </ul>
 <p>
 	We will publish the source prompt and code in a few days; you can then compare your results to the
-	actual prompt.
+	actual prompt. Leave an email on <a href="https://lspace.swyx.io/">the substack</a> to get notified when we publish!
 </p>
 <p>
 	It's
