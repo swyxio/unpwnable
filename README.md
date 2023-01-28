@@ -6,7 +6,7 @@ demo: https://unpwnable.netlify.app/
 
 This is a test of the "Unpwnable" prompt injection protection strategy. We want to demonstrate that you can take normal product prompts and sufficiently protect against prompt injection attacks.
 
-First, you can verify that the prompt works as advertised, by submitting topics you would like GPT3 to write about (e.g. "dog", "netlify", "obama"). In the API we've used a simple prompt that is meant to be reflective of a realistic product prompt, with our "unpwnable" protection strategy.
+First, you can verify that the prompt works as advertised, by submitting topics you would like GPT3 to write about (e.g. "dog", "netlify", "sam altman"). In the API we've used a simple prompt that is meant to be reflective of a realistic product prompt, with our "unpwnable" protection strategy.
 
 Your **real mission, should you choose to accept it, is to [reverse engineer the source prompt](https://lspace.swyx.io/p/reverse-prompt-eng) to as high fidelity as possible**, within our rate limit.
 

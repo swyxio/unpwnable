@@ -60,7 +60,7 @@
 </p>
 <p>
 	First, you can verify that the prompt works as advertised, by submitting topics you would like
-	GPT3 to write about (e.g. "dog", "netlify", "obama"). In the API we've used a simple prompt that
+	GPT3 to write about (e.g. "dog", "netlify", "sam altman"). In the API we've used a simple prompt that
 	is meant to be reflective of a realistic product prompt, with our "unpwnable" protection strategy.
 </p>
 <p>
@@ -71,7 +71,7 @@
 	>, within our rate limit.
 </p>
 <p>You can leave your guesses and process in the accompanying blogpost. We expect that you will get no more than the first sentence (16 words) of the source prompt.</p>
-<p>The prompt is a simple variation on real product prompts:</p>
+<p>The source prompt is a simple variation on real product prompts:</p>
 <ul>
 	<li>a ~90 word, ~500 character string</li>
 	<li>starting with "You are an assistant"</li>
@@ -81,7 +81,7 @@
 <p>
 	It's
 	<a href="https://emn178.github.io/online-tools/sha256.html">SHA-256 hash</a> is
-	<code>bcd4943b7bd06818d182270aad1455d649c9cbaaa319d1a4a8d5deb3aba0145b</code>.
+	<a href="https://twitter.com/swyx/status/1619219997469052928?s=20"><code>bcd4943b7bd06818d182270aad1455d649c9cbaaa319d1a4a8d5deb3aba0145b</code></a>.
 </p>
 <p>
 	We will publish the source prompt and code in a few days; you can then compare your results to the
