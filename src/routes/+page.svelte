@@ -103,7 +103,7 @@
 	<li>One person has found the <i>last</i> 3-ish sentences (41 words).</li>
 	<li>
 		None will get the full 90 words (we think it is IMPOSSIBLE
-		to get the full prompt, but if you get 95% of it we'll count it as a win).
+		to get the full prompt, but if you get 90+% of it we'll count it as a win).
 	</li>
 </ul>
 <p>
