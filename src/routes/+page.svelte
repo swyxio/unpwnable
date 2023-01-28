@@ -91,7 +91,7 @@
 	{/if}
 </p>
 
-<p>You can leave your guesses and process in the accompanying Substack post (dont post guesses on HN or social media in case it spoils it for others!). </p>
+<p>You can leave your guesses and process in <a href="https://lspace.swyx.io/p/jan-2023-update?sd=pf">the accompanying Substack post</a> (dont post guesses on HN or social media in case it spoils it for others!). </p>
 <p>
 	I will publish the source prompt and code in a few days; you can then compare your results to the
 	actual prompt. <b><a href="https://lspace.swyx.io/">Leave an email</a> to get notified</b> when we publish!

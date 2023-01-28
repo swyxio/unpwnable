@@ -2,6 +2,8 @@
 
 demo: https://unpwnable.netlify.app/
 
+comment guesses: https://lspace.swyx.io/p/jan-2023-update
+
 ## What is this?
 
 This is a test of the "Unpwnable" prompt injection protection strategy. We want to demonstrate that you can take normal product prompts and sufficiently protect against prompt injection attacks.
