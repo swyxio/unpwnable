@@ -55,9 +55,9 @@
 <h2>What is this?</h2>
 
 <p>
-	This is a test of the "Unpwnable" prompt injection protection strategy. We want to demonstrate
-	that you can take normal product prompts and sufficiently protect against prompt injection
-	attacks.
+	This is a test of the "Unpwnable" prompt injection protection strategy (<a href="https://simonwillison.net/2022/Sep/12/prompt-injection/">what is prompt injection?</a>). We want to demonstrate
+	that you can take normal product prompts, modify them slightly, and <b>sufficiently protect against prompt injection
+	attacks, WHILE preserving the original functionality</b>.
 </p>
 <p>
 	First, you can verify that the prompt works as advertised, by submitting topics you would like
@@ -69,12 +69,20 @@
 		>real mission, should you choose to accept it, is to <a
 			href="https://lspace.swyx.io/p/reverse-prompt-eng">reverse engineer the source prompt</a
 		> to as high fidelity as possible</b
-	>, within our rate limit (which is there for my wallet's sake).
+	>.
 </p>
 <p>You can leave your guesses and process in the accompanying HN post. 
   We expect that you will get no more than the first sentence (16 words) of the source prompt.
-  You can add your OpenAI key here to bypass the rate limit (it's not saved anywhere on my end but you'll have to trust me until I open source this):
-  <input type="text" placeholder="OpenAI key" bind:value={oaikey} />
+</p>
+<p>
+  There is a rate limit (which is there for my wallet's sake).
+  You can add your OpenAI key here to bypass the rate limit:
+  <input type="text" placeholder="your own OpenAI key" bind:value={oaikey} />
+  {#if oaikey}
+    <span class="whee">will be submitted together with the prompt!</span>
+  {:else}
+  (it's not saved anywhere on my end but you'll have to trust me until I open source this)
+  {/if}
 </p>
 <p>The source prompt is a simple variation on real product prompts:</p>
 <ul>
@@ -84,16 +92,19 @@
 	<li>There are NO special characters or formatting used to protect the prompt</li>
 </ul>
 <p>
-	It's
-	<a href="https://emn178.github.io/online-tools/sha256.html">SHA-256 hash</a> is
-	<a href="https://twitter.com/swyx/status/1619219997469052928?s=20"><code>bcd4943b7bd06818d182270aad1455d649c9cbaaa319d1a4a8d5deb3aba0145b</code></a>.
+  We will publish the source prompt and code in a few days; you can then compare your results to the
+	actual prompt.
 </p>
 <p>
-	We will publish the source prompt and code in a few days; you can then compare your results to the
-	actual prompt.
+  It's
+  <a href="https://emn178.github.io/online-tools/sha256.html">SHA-256 hash</a> is
+  <a href="https://twitter.com/swyx/status/1619219997469052928?s=20"><code>bcd4943b7bd06818d182270aad1455d649c9cbaaa319d1a4a8d5deb3aba0145b</code></a> (due to whitespace it would be unrealistic to expect that you will get an exact match, but it'd be a really cool bonus if you do).
 </p>
 
 <style>
+  .whee {
+    color: green;
+  }
 	pre {
 		background-color: lightgray;
 		padding: 2rem;

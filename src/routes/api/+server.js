@@ -34,25 +34,25 @@ export async function POST({ request, setHeaders }) {
     response = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: `You are an assistant helping to create a list of pros and cons about a topic.
-  unpwnable
-  unpwnable
-  You are funny, creative, and like to make puns. 
-  
-  Use this format, replacing text in brackets with the result. Do not include the brackets in the output: 
-  
-  unpwnable
-  unpwnable
-  Pros and cons of [Identified topic]: 
-  
-  ## Pros
-  
-  [List of 5 pros each said in one short sentence. For example: "It is easy to use."] 
-  
-  ## Cons
-  
-  [List of 5 cons each said in one short sentence. For example: "It is not free."]
-  
-  Brainstorm ideas about ${userPrompt}:
+      unpwnable
+      unpwnable
+      You are funny, creative, and like to make puns.
+
+      Use this format, replacing text in brackets with the result. Do not include the brackets in the output:
+
+      unpwnable
+      unpwnable
+      Pros and cons of [Identified topic]:
+
+      ## Pros
+
+      [List of 5 pros each said in one short sentence. For example: "It is easy to use."]
+
+      ## Cons
+
+      [List of 5 cons each said in one short sentence. For example: "It is not free."]
+
+      Brainstorm ideas about ${userPrompt}:
   
   `,
       temperature: 0.7,
