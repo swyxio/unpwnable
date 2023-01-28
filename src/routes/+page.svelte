@@ -96,7 +96,7 @@
 	<li>ending by concatenating the user input to the source prompt</li>
 	<li>There are NO special characters or formatting (JSON or otherwise) used to protect the prompt</li>
 </ul>
-<p>You can leave your guesses and process in the accompanying HN post. We expect that:</p>
+<p>You can leave your guesses and process in the accompanying Substack post (dont post guesses on HN or social media in case it spoils it for others!). We expect that:</p>
 <ul>
 	<li>Most will get no more than the first sentence (16 words) of the source prompt.</li>
 	<li>Some will get the first 3 sentences (34 words).</li>
