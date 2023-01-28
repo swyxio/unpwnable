@@ -100,6 +100,7 @@
 <ul>
 	<li>Most will get no more than the first sentence (16 words) of the source prompt.</li>
 	<li>Some will get the first 3 sentences (34 words).</li>
+	<li>One person has found the <i>last</i> 3-ish sentences (41 words).</li>
 	<li>
 		None will get the full 90 words (it MAY be possible to come close, but we think it is IMPOSSIBLE
 		to get the full prompt).
