@@ -91,19 +91,14 @@
 	{/if}
 </p>
 
-<p>You can leave your guesses and process in the accompanying Substack post (dont post guesses on HN or social media in case it spoils it for others!). We expect that:</p>
-<ul>
-	<li>Most will get no more than the first sentence (16 words) of the source prompt.</li>
-	<li>Some will get the first 3 sentences (34 words).</li>
-	<li>Two beta testers have found enough words to win (>80 words verbatim) using 2 different techniques. We've strengthened the protection since, and cannot reproduce them now. Try not to peek anyway!</li>
-</ul>
+<p>You can leave your guesses and process in the accompanying Substack post (dont post guesses on HN or social media in case it spoils it for others!). </p>
 <p>
 	I will publish the source prompt and code in a few days; you can then compare your results to the
-	actual prompt. <b>Leave an email on <a href="https://lspace.swyx.io/">the substack</a> to get notified</b> when we publish!
+	actual prompt. <b><a href="https://lspace.swyx.io/">Leave an email</a> to get notified</b> when we publish!
 </p>
 <details>
 	<summary>
-		<b>Hints/Checks</b>
+		<b>Hints/Checks (do not open if you want as realistic a challenge as possible)</b>
 	</summary>
 
   The source prompt is a simple variation on real product prompts:
@@ -112,6 +107,12 @@
     <li>starting with "You are an assistant"</li>
     <li>ending by concatenating the user input to the source prompt</li>
     <li>There are NO special characters or formatting (JSON or otherwise), and NO regex or postprocessing used to protect the prompt</li>
+  </ul>
+  <p>We expect that:</p>
+  <ul>
+    <li>Most will get no more than the first sentence (16 words) of the source prompt.</li>
+    <li>Some will get the first 3 sentences (34 words).</li>
+    <li>Two beta testers have found enough words to win (>80 words verbatim) using 2 different techniques. We've strengthened the protection since, and cannot reproduce them now. Try not to peek anyway!</li>
   </ul>
 
   <p>
