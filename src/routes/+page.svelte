@@ -98,7 +98,7 @@
 <p>
   It's
   <a href="https://emn178.github.io/online-tools/sha256.html">SHA-256 hash</a> is
-  <a href="https://twitter.com/swyx/status/1619219997469052928?s=20"><code>bcd4943b7bd06818d182270aad1455d649c9cbaaa319d1a4a8d5deb3aba0145b</code></a> (due to whitespace it would be unrealistic to expect that you will get an exact match, but it'd be a really cool bonus if you do).
+  <code>f9f91bed2ce346dcb0bc0b6c7dd1bb22c615e3ad0e855fbfe35ac53649c16a97</code> (due to whitespace it would be unrealistic to expect that you will get an exact match, but it'd be a really cool bonus if you do).
 </p>
 
 <style>
