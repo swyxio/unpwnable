@@ -2,11 +2,12 @@
 	let txt = '';
 	/** @type any */
 	let res;
+  let oaikey = '';
 
 	async function submit() {
 		res = fetch('/api', {
 			method: 'POST',
-			body: JSON.stringify({ userPrompt: txt }),
+			body: JSON.stringify({ userPrompt: txt, oaikey }),
 			headers: {
 				'content-type': 'application/json'
 			}
@@ -22,7 +23,7 @@
 	}
 </script>
 
-<h1>Welcome to Unpwnable - The prompt that cannot be leaked!</h1>
+<h1>Welcome to Unpwnable - A Capture the Prompt contest!</h1>
 
 <!-- // textarea input that is big enough to hold the whole text -->
 <form on:submit={submit}>
@@ -31,7 +32,7 @@
 	<textarea
 		data-lpignore="true"
 		autocomplete="off"
-		placeholder="your prompt here"
+		placeholder="write either a random topic to brainstorm (dog, clouds, college) or your prompt injection prompt"
 		rows="8"
 		bind:value={txt}
 	/>
@@ -68,9 +69,13 @@
 		>real mission, should you choose to accept it, is to <a
 			href="https://lspace.swyx.io/p/reverse-prompt-eng">reverse engineer the source prompt</a
 		> to as high fidelity as possible</b
-	>, within our rate limit.
+	>, within our rate limit (which is there for my wallet's sake).
 </p>
-<p>You can leave your guesses and process in the accompanying blogpost. We expect that you will get no more than the first sentence (16 words) of the source prompt.</p>
+<p>You can leave your guesses and process in the accompanying HN post. 
+  We expect that you will get no more than the first sentence (16 words) of the source prompt.
+  You can add your OpenAI key here to bypass the rate limit (it's not saved anywhere on my end but you'll have to trust me until I open source this):
+  <input type="text" placeholder="OpenAI key" bind:value={oaikey} />
+</p>
 <p>The source prompt is a simple variation on real product prompts:</p>
 <ul>
 	<li>a ~90 word, ~500 character string</li>
