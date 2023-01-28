@@ -55,9 +55,9 @@ Pros and cons of [Identified topic]:
 Brainstorm ideas about ${userPrompt}:
   
   `,
-      temperature: 0.7,
+      temperature: 0.3,
       max_tokens: 512,
-      stop: ["unpwnable"],
+      stop: ["unpwnable", "Unpwnable", "UNPWNABLE"],
     });
   } catch (err) {
     throw error(500, 'OpenAI API error; check your api key');
