@@ -93,7 +93,7 @@
 <ul>
   <li>Most will get no more than the first sentence (16 words) of the source prompt.</li> 
   <li>Some will get the first 3 sentences (34 words).</li>
-  <li>None will get the full 90 words (unless you get lucky).</li>
+  <li>None will get the full 90 words (it MAY be possible to come close, but we think it is IMPOSSIBLE to get the full prompt).</li>
 </ul>
 <p>
   We will publish the source prompt and code in a few days; you can then compare your results to the
