@@ -12,6 +12,13 @@ Your **real mission, should you choose to accept it, is to [reverse engineer t
 
 You can leave your guesses and process in the accompanying blogpost.
 
-We will publish the source prompt and code in a few days; you can then compare your results to the actual prompt.
+The prompt is a simple variation on real product prompts:
 
-The prompt is a simple variation on real product prompts - a ~90 word, ~500 character string starting with "You are an assistant" and ending by concatenating the user input to the source prompt. There are NO special characters or formatting. It's [SHA-256 hash](https://emn178.github.io/online-tools/sha256.html) is `bcd4943b7bd06818d182270aad1455d649c9cbaaa319d1a4a8d5deb3aba0145b`.
+- a ~90 word, ~500 character string
+- starting with "You are an assistant"
+- ending by concatenating the user input to the source prompt
+- There are NO special characters or formatting.
+
+It's [SHA-256 hash](https://emn178.github.io/online-tools/sha256.html) is `bcd4943b7bd06818d182270aad1455d649c9cbaaa319d1a4a8d5deb3aba0145b`.
+
+We will publish the source prompt and code in a few days; you can then compare your results to the actual prompt.
