@@ -102,8 +102,8 @@
 	<li>Some will get the first 3 sentences (34 words).</li>
 	<li>One person has found the <i>last</i> 3-ish sentences (41 words).</li>
 	<li>
-		None will get the full 90 words (it MAY be possible to come close, but we think it is IMPOSSIBLE
-		to get the full prompt).
+		None will get the full 90 words (we think it is IMPOSSIBLE
+		to get the full prompt, but if you get 95% of it we'll count it as a win).
 	</li>
 </ul>
 <p>
