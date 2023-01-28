@@ -72,7 +72,7 @@
 	>.
 </p>
 <p>You can leave your guesses and process in the accompanying HN post. 
-  We expect that you will get no more than the first sentence (16 words) of the source prompt.
+  We expect that most will get no more than the first sentence (16 words) of the source prompt. Some will get the first 3 sentences (34 words). None will get the full 90 words.
 </p>
 <p>
   There is a rate limit (which is there for my wallet's sake).
