@@ -10,7 +10,8 @@ First, you can verify that the prompt works as advertised, by submitting topics 
 
 Your **real mission, should you choose to accept it, is to [reverse engineer the source prompt](https://lspace.swyx.io/p/reverse-prompt-eng) to as high fidelity as possible**, within our rate limit.
 
-You can leave your guesses and process in the accompanying blogpost.
+You can leave your guesses and process in the accompanying blogpost. 
+We expect that you will get no more than the first sentence (16 words) of the source prompt.
 
 The prompt is a simple variation on real product prompts:
 

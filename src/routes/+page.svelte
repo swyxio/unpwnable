@@ -70,7 +70,7 @@
 		> to as high fidelity as possible</b
 	>, within our rate limit.
 </p>
-<p>You can leave your guesses and process in the accompanying blogpost.</p>
+<p>You can leave your guesses and process in the accompanying blogpost. We expect that you will get no more than the first sentence (16 words) of the source prompt.</p>
 <p>The prompt is a simple variation on real product prompts:</p>
 <ul>
 	<li>a ~90 word, ~500 character string</li>
